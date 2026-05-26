@@ -96,5 +96,5 @@ npm install @vivid-life-theme/design-system
 ---
 
 <p align="center">
-  Building a port? Read the <a href="https://github.com/vivid-life-theme/vivid-life-design-system/blob/main/handoff/README.md">handoff guide →</a>
+  Building a port using Claude Code? Read the <a href="https://github.com/vivid-life-theme/vivid-life-design-system/blob/main/handoff/README.md">handoff guide →</a>
 </p>
