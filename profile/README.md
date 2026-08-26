@@ -70,6 +70,16 @@ npm install @vivid-life-theme/design-system
 
 ---
 
+### 🟢 Terminal ports
+
+**[vivid-life-fish](https://github.com/vivid-life-theme/vivid-life-fish)** — Fish shell color scheme · 24 themes · Fisher-installable
+
+```bash
+fisher install vivid-life-theme/vivid-life-fish
+```
+
+---
+
 ### IDE ports _(coming soon)_
 
 | Repo                | Description         |
@@ -90,7 +100,6 @@ npm install @vivid-life-theme/design-system
 | ----------------------------- | ----------------------------- |
 | `vivid-life-windows-terminal` | Windows Terminal color scheme |
 | `vivid-life-xfce-terminal`    | Xfce Terminal color scheme    |
-| `vivid-life-fish`             | Fish shell color scheme       |
 | `vivid-life-starship`         | Starship prompt preset        |
 
 ---
