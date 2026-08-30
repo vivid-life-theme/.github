@@ -98,6 +98,14 @@ cd vivid-life-xfce4-terminal
 ./install.sh
 ```
 
+**[vivid-life-windows-terminal](https://github.com/vivid-life-theme/vivid-life-windows-terminal)** — Windows Terminal color scheme · 24 themes · installs as a JSON Fragment Extension, no `settings.json` editing
+
+```powershell
+git clone https://github.com/vivid-life-theme/vivid-life-windows-terminal.git
+cd vivid-life-windows-terminal
+.\install.ps1
+```
+
 ---
 
 ### 🟢 IDE ports
@@ -120,12 +128,6 @@ Search the VS Code Marketplace for **Vivid Life Theme**, install, then pick one 
 | -------------------- | ---------------------------- |
 | `vivid-life-gtk`     | GTK / XFCE theme for Xubuntu |
 | `vivid-life-windows` | Windows 11 accent theme      |
-
-### Terminal ports _(coming soon)_
-
-| Repo                          | Description                   |
-| ----------------------------- | ----------------------------- |
-| `vivid-life-windows-terminal` | Windows Terminal color scheme |
 
 ---
 
