@@ -78,13 +78,40 @@ npm install @vivid-life-theme/design-system
 fisher install vivid-life-theme/vivid-life-fish
 ```
 
+**[vivid-life-powershell](https://github.com/vivid-life-theme/vivid-life-powershell)** — PowerShell color theme (PSReadLine + `$PSStyle`) · 24 themes · PowerShell Gallery
+
+```powershell
+Install-Module -Name VividLifePowerShell -Scope CurrentUser
+```
+
+**[vivid-life-starship](https://github.com/vivid-life-theme/vivid-life-starship)** — Starship cross-shell prompt preset · 24 themes, each with a colors-only and a custom-prompt config
+
+```bash
+cp themes/vivid-life-midnight-purple.toml ~/.config/starship.toml
+```
+
+**[vivid-life-xfce4-terminal](https://github.com/vivid-life-theme/vivid-life-xfce4-terminal)** — Xfce Terminal color scheme · 24 themes
+
+```bash
+git clone https://github.com/vivid-life-theme/vivid-life-xfce4-terminal.git
+cd vivid-life-xfce4-terminal
+./install.sh
+```
+
+---
+
+### 🟢 IDE ports
+
+**[vivid-life-vs-code](https://github.com/vivid-life-theme/vivid-life-vs-code)** — VS Code color theme · 24 themes · VS Code Marketplace
+
+Search the VS Code Marketplace for **Vivid Life Theme**, install, then pick one of the 24 entries from `Preferences: Color Theme`.
+
 ---
 
 ### IDE ports _(coming soon)_
 
 | Repo                | Description         |
 | ------------------- | ------------------- |
-| `vivid-life-vscode` | VS Code color theme |
 | `vivid-life-neovim` | Neovim color scheme |
 
 ### Desktop ports _(coming soon)_
@@ -99,8 +126,6 @@ fisher install vivid-life-theme/vivid-life-fish
 | Repo                          | Description                   |
 | ----------------------------- | ----------------------------- |
 | `vivid-life-windows-terminal` | Windows Terminal color scheme |
-| `vivid-life-xfce-terminal`    | Xfce Terminal color scheme    |
-| `vivid-life-starship`         | Starship prompt preset        |
 
 ---
 
