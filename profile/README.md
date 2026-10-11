@@ -60,6 +60,10 @@
 
 ---
 
+24 themes, one source of truth, zero eye strain. Every port below is generated from the same design tokens and gated for WCAG AA contrast, so switching from your editor to your terminal to your prompt doesn't feel like walking into a different building. Pick a flavor by time of day (Midnight, Twilight, Dawn, Noon), pick an accent, done. Bikeshedding over your color scheme has officially been automated.
+
+---
+
 ### 🟢 Foundation
 
 **[vivid-life-design-system](https://github.com/vivid-life-theme/vivid-life-design-system)** — Token source of truth · CSS custom properties · ES module · No dependencies
@@ -70,24 +74,14 @@ npm install @vivid-life-theme/design-system
 
 ---
 
-### 🟢 Terminal ports
+### 🟢 Terminals
 
-**[vivid-life-fish](https://github.com/vivid-life-theme/vivid-life-fish)** — Fish shell color scheme · 24 themes · Fisher-installable
-
-```bash
-fisher install vivid-life-theme/vivid-life-fish
-```
-
-**[vivid-life-powershell](https://github.com/vivid-life-theme/vivid-life-powershell)** — PowerShell color theme (PSReadLine + `$PSStyle`) · 24 themes · PowerShell Gallery
+**[vivid-life-windows-terminal](https://github.com/vivid-life-theme/vivid-life-windows-terminal)** — Windows Terminal color scheme · 24 themes · installs as a JSON Fragment Extension, no `settings.json` surgery
 
 ```powershell
-Install-Module -Name VividLifePowerShell -Scope CurrentUser
-```
-
-**[vivid-life-starship](https://github.com/vivid-life-theme/vivid-life-starship)** — Starship cross-shell prompt preset · 24 themes, each with a colors-only and a custom-prompt config
-
-```bash
-cp themes/vivid-life-midnight-purple.toml ~/.config/starship.toml
+git clone https://github.com/vivid-life-theme/vivid-life-windows-terminal.git
+cd vivid-life-windows-terminal
+.\install.ps1
 ```
 
 **[vivid-life-xfce4-terminal](https://github.com/vivid-life-theme/vivid-life-xfce4-terminal)** — Xfce Terminal color scheme · 24 themes
@@ -98,39 +92,69 @@ cd vivid-life-xfce4-terminal
 ./install.sh
 ```
 
-**[vivid-life-windows-terminal](https://github.com/vivid-life-theme/vivid-life-windows-terminal)** — Windows Terminal color scheme · 24 themes · installs as a JSON Fragment Extension, no `settings.json` editing
+---
+
+### 🟢 Shells & prompts
+
+**[vivid-life-fish](https://github.com/vivid-life-theme/vivid-life-fish)** — fish shell color theme · 24 themes · Fisher-installable
+
+```fish
+fisher install vivid-life-theme/vivid-life-fish
+```
+
+**[vivid-life-powershell](https://github.com/vivid-life-theme/vivid-life-powershell)** — PowerShell color theme (PSReadLine + `$PSStyle`) · 24 themes · PowerShell Gallery
 
 ```powershell
-git clone https://github.com/vivid-life-theme/vivid-life-windows-terminal.git
-cd vivid-life-windows-terminal
-.\install.ps1
+Install-Module -Name VividLifePowerShell -Scope CurrentUser
+```
+
+**[vivid-life-starship](https://github.com/vivid-life-theme/vivid-life-starship)** — Starship cross-shell prompt theme · 24 themes, each with a colors-only and a custom-prompt config
+
+```bash
+git clone https://github.com/vivid-life-theme/vivid-life-starship.git
+cp vivid-life-starship/themes/vivid-life-midnight-purple.toml ~/.config/starship.toml
 ```
 
 ---
 
-### 🟢 IDE ports
+### 🟢 Editors & tools
 
 **[vivid-life-vs-code](https://github.com/vivid-life-theme/vivid-life-vs-code)** — VS Code color theme · 24 themes · VS Code Marketplace
 
-Search the VS Code Marketplace for **Vivid Life Theme**, install, then pick one of the 24 entries from `Preferences: Color Theme`.
+```bash
+code --install-extension vivid-life-theme.vivid-life-theme
+```
+
+**[vivid-life-claude-code](https://github.com/vivid-life-theme/vivid-life-claude-code)** — Claude Code color theme · 24 themes · Claude Code plugin
+
+```text
+/plugin marketplace add vivid-life-theme/vivid-life-claude-code
+/plugin install vivid-life-theme@vivid-life
+```
 
 ---
 
-### IDE ports _(coming soon)_
+### 🟡 Desktop _(pre-release)_
 
-| Repo                | Description         |
-| ------------------- | ------------------- |
-| `vivid-life-neovim` | Neovim color scheme |
+**[vivid-life-xfce](https://github.com/vivid-life-theme/vivid-life-xfce)** — Xfce desktop theme (GTK2 · GTK3 · GTK4 · Xfwm4) · 24 themes · auto-detecting installer
 
-### Desktop ports _(coming soon)_
+```bash
+git clone https://github.com/vivid-life-theme/vivid-life-xfce.git
+cd vivid-life-xfce
+./install.sh
+```
 
-| Repo                 | Description                  |
-| -------------------- | ---------------------------- |
-| `vivid-life-gtk`     | GTK / XFCE theme for Xubuntu |
-| `vivid-life-windows` | Windows 11 accent theme      |
+---
+
+### ⚪ Coming soon
+
+| Repo                 | Description             |
+| -------------------- | ----------------------- |
+| `vivid-life-neovim`  | Neovim color scheme     |
+| `vivid-life-windows` | Windows 11 accent theme |
 
 ---
 
 <p align="center">
-  Building a port using Claude Code? Read the <a href="https://github.com/vivid-life-theme/vivid-life-design-system/blob/main/handoff/README.md">handoff guide →</a>
+  Building a new port with Claude Code? Read the <a href="https://github.com/vivid-life-theme/vivid-life-design-system/blob/main/handoff/README.md">handoff guide →</a>
 </p>
