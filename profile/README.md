@@ -112,6 +112,7 @@ Install-Module -Name VividLifePowerShell -Scope CurrentUser
 
 ```bash
 git clone https://github.com/vivid-life-theme/vivid-life-starship.git
+mkdir -p ~/.config
 cp vivid-life-starship/themes/vivid-life-midnight-purple.toml ~/.config/starship.toml
 ```
 
