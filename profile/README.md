@@ -149,10 +149,10 @@ cd vivid-life-xfce
 
 ### ⚪ Coming soon
 
-| Repo                 | Description             |
-| -------------------- | ----------------------- |
-| `vivid-life-neovim`  | Neovim color scheme     |
-| `vivid-life-windows` | Windows 11 accent theme |
+| Repo                 | Description                                                 |
+| -------------------- | ----------------------------------------------------------- |
+| `vivid-life-neovim`  | Neovim color scheme (the modal-editor flame war comes free) |
+| `vivid-life-windows` | Windows 11 accent theme                                     |
 
 ---
 
