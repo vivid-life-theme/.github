@@ -76,7 +76,7 @@ npm install @vivid-life-theme/design-system
 
 ### 🟢 Terminals
 
-**[vivid-life-windows-terminal](https://github.com/vivid-life-theme/vivid-life-windows-terminal)** — Windows Terminal color scheme · 24 themes · installs as a JSON Fragment Extension, no `settings.json` surgery
+**[vivid-life-windows-terminal](https://github.com/vivid-life-theme/vivid-life-windows-terminal)** — Windows Terminal color scheme · 24 themes · installs as a JSON Fragment Extension, no `settings.json` surgery · optional window theme colors the tab row
 
 ```powershell
 git clone https://github.com/vivid-life-theme/vivid-life-windows-terminal.git
@@ -120,7 +120,7 @@ cp vivid-life-starship/themes/vivid-life-midnight-purple.toml ~/.config/starship
 
 ### 🟢 Editors & tools
 
-**[vivid-life-vs-code](https://github.com/vivid-life-theme/vivid-life-vs-code)** — VS Code color theme · 24 themes · VS Code Marketplace
+**[vivid-life-vs-code](https://github.com/vivid-life-theme/vivid-life-vs-code)** — VS Code color theme · 24 themes · the variant's color frames the editor · VS Code Marketplace
 
 ```bash
 code --install-extension vivid-life-theme.vivid-life-theme
